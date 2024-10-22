@@ -6,6 +6,7 @@ authors = [
 ]
 dependencies = [
     "textual>=0.83.0",
+    "textual[syntax]",
     "platformdirs~=4.2.2",
 ]
 description = "The Most Pythonic IDE"
