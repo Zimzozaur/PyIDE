@@ -28,6 +28,10 @@ dev = [
     "pre-commit~=4.0.1"
 ]
 
+[project.urls]
+Homepage = "https://github.com/Zimzozaur/PyIDE"
+Issues = "https://github.com/Zimzozaur/PyIDE/issues"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
