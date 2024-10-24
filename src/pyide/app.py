@@ -1,7 +1,11 @@
-from textual.app import App, ComposeResult
-from textual.widgets import Static
+from textual.app import App
+
+from pyide.screens import EditorScreen
 
 
 class PyIDE(App):
-    def compose(self) -> ComposeResult:
-        yield Static("PyIDE")
+    ENABLE_COMMAND_PALETTE = False
+    CSS_PATH = "style.tcss"
+
+    def on_mount(self):
+        self.push_screen(EditorScreen())
