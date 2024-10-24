@@ -1,6 +1,6 @@
 [project]
 name = "pyide"
-version = "0.0.1"
+version = "0.0.1a"
 authors = [
     { name="Simon Piechutowski", email="szymonpiechutowski@gmail.com" },
 ]
