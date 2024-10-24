@@ -38,7 +38,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project.scripts]
-focustui = "pyide.__main__:main"
+pyide = "pyide.__main__:main"
 
 [tool.ruff]
 exclude = ["tests"]
